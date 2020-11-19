@@ -1,0 +1,20 @@
+h2 {
+    text-align: center; 
+    margin: 5%;
+}
+
+.error {
+    text-align: center; 
+    margin: 2%;
+    color: red;
+    font-size: 25px;
+}
+
+.frame {
+    padding: 1%;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+    border: solid 3px rgb(209, 96, 3);  
+    border-style: dashed;  
+}

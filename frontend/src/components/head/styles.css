@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+#backgroundLogo { 
+    width: 100%;
+    height: 17vw;
+}
+
+#logo {
+   width: 21vw;
+   height: 13vw;
+} 
+
+#circle {
+    margin: auto;  /* center horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    height: 19vw;
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 50%; /* circle */
+    border: solid 2px rgb(224, 224, 224);
+    /* shine */
+    -webkit-box-shadow:0 0 10px rgb(224, 224, 224); 
+    -moz-box-shadow: 0 0 10px rgb(224, 224, 224); 
+    box-shadow:0 0 10px rgb(224, 224, 224);
+}

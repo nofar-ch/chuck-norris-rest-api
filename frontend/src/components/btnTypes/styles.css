@@ -1,0 +1,62 @@
+form {
+  border-radius: 5px;
+  background-color: #ffe8b5;
+  padding: 3%;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+  margin: 2% auto;
+  }
+  
+.btn-group {
+  position: relative;
+  text-align: center;
+  margin-top:-4%;
+}
+
+button {
+    background-color: white; 
+    border: 1px solid orangered; 
+    color:orangered;
+    padding: 1% 2%; 
+    font-size: 95%;
+    cursor: pointer; 
+    border-radius: 6%;
+    outline: none;
+  }
+
+button:focus {
+    background-color: orangered; 
+    border: 1px solid orangered; 
+    color:white;
+}
+
+#goBtn {
+  height: 35px;
+}
+
+#goBtn, #sortBtn {
+  cursor: pointer; 
+  background-color: rgb(223, 217, 217);
+  color: rgb(88, 88, 88);
+  outline: none;
+  width: 90%;
+  border: none;
+  min-height: fit-content;
+  border-radius: 6%;
+}
+
+.container {
+  width:80%;
+}
+
+.label {
+  font-size: 15px;
+  margin-right: 3%;
+  display:inline-block;
+}
+
+input[type="text"] {
+  height: 23px;
+  width: 40%;
+}

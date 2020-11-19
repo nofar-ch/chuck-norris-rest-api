@@ -1,0 +1,65 @@
+
+#left {
+  float:left;
+  width: 40%;
+}
+
+#middle {
+  display: inline-block;
+  width:40%;
+}
+
+#right {
+  float: right;
+  width:20%;
+  text-align: right;
+}
+
+h3 {
+  text-align: center;
+  margin: 3%;
+}
+select {
+  height: 28px;
+}
+.multiselect {
+  display: inline-block;
+  width: 50%;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #464545 solid;
+  background-color: white;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #b6b4b4;
+}
+
+.selectLabel {
+  float: left;
+  font-size: 15px;
+  margin-right: 3%;
+  margin-top: 2px;
+}
